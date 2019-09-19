@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: rgb(243, 241, 241);  
+}
+
+.container {
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 30px;
+}
+
+.img {
+    text-align: center;
+}
+
+.img img {
+    width: 50%;
+    height: 20%;
+    border-radius: 100%;
+}
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+input[type="text"], input[type="password"] {
+    width: 77vw;
+    height: 7vh;
+    border-radius: 4px;
+    text-align: left;
+    margin: 5px 0 20px 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+button {
+    width: 78vw;
+    height: 7vh;
+    background: rgb(87, 187, 87);
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+}
+
+input[type="checkbox"], span#remember {
+    margin-top: 20px;
+} 
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.down #cancel {
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 8px 17px;
+    border: 1px solid beige;
+    background: rgb(245, 87, 87);
+    color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.down #password {
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.down #password #word {
+    border-bottom: 1px solid black;
+}
+
+/* media queries */
+@media screen and (min-width: 769px) {
+    .img img {
+        width: 15%;
+    }
+
+    form {
+        margin-left: 280px;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 50vw;
+    }
+
+    button {
+        width: 50.3vw;
+    }
+}
